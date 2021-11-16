@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    width: 10vh;
+}
+
+.rtx {
+    position: relative;
+}
+
+.rtx>img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.menu-wrapper {
+    display: flex;
+    bottom: 0;
+}
+
+nav {
+    width: 100%;
+    display: inherit;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+nav>a {
+    text-decoration: none;
+    margin: 0vh 5vh 2vh 5vh;
+}
+
+.banniere {
+    padding: 1vh;
+    margin-bottom: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba( 7, 111, 10, 60%);
+    position: absolute;
+    z-index: 1;
+}
+
+.banniere>button {
+    display: inline;
+    float: right;
+}
+
+.banniere>p {
+    display: inline;
+    color: white;
+}
+
+.a_propos {
+    flex: 1;
+    background-color: rgb(106,168,33);
+    text-align: center;
+    width: 30%;
+    bottom: 0;
+}
+
+.container {
+    flex: 3;
+}
+
+article {
+    margin: 2vh 0vh 0vh 0vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid rgb(106,168,33);
+}
+
+button {
+    color: white;
+    border: 1px solid rgb(106,168,33);
+    background-color: rgb(106,168,33);
+    border-radius: 10px;
+    padding: 1vh;
+}
+
+.icon {
+    background-image: url("https://1.bp.blogspot.com/-rgSHaT-ReTQ/WI3KgWYl1HI/AAAAAAAADqU/63E6M05iHYs8Nyq4XVMkt8piqzrcxKzqQCLcB/s200/GeForce%2BExperience.png");
+    width: 2vh;
+}
+
+h1 + p {
+    margin-bottom: 1vh;
+}
+
+a>i {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 18%;
+    margin:auto;
+    color: white;
+
+}
+
+h1 {
+    padding: 1vh 0vh 1vh 0vh;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid rgb(106,168,33);
+    margin: auto;
+    top: 5vh;
+}
+
+footer {
+    margin-bottom: 5vh;
+    display: flex;
+    bottom: 0;
+}
+
+input {
+    padding: 1vh;
+    margin: .3vh .3vh .3vh 0vh;
+}
+
+.button_news {
+    color: white;
+    background-color: rgb(106,168,33);
+    border: none;
+    padding: 1vh;
+}
